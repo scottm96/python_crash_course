@@ -1,0 +1,16 @@
+locations = ['golf park', 'cinema', 'hair salon', 'hiking trail', 'foreign restaurant', 'basketball court', 'game center']
+print(locations)
+print(sorted(locations))
+print(locations)
+print(sorted( locations, reverse=True))
+print(locations)
+locations.reverse()
+print(locations)
+locations.reverse()
+print(locations)
+locations.sort()
+print(locations)
+locations.sort(reverse=True)
+print(locations)
+
+print (f'these are {len(locations)} locations you can choose to visit on your free time')
